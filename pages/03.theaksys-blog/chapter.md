@@ -10,6 +10,9 @@ content:
         dir: desc
     pagination: true
     url_taxonomy_filters: true
+media_order: Map.PNG
 ---
 
 # Welcome to my blog :)
+
+![Map](Map.PNG "Map")
