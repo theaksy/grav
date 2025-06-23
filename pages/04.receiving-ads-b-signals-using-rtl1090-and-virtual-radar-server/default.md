@@ -29,7 +29,7 @@ Once installed, run the application and allow the firewall access pop up (this w
 Once running and some planes are close it will start to list them as below.
 ![1090](1090.PNG "1090")
 
->>>Initially I just connected my 120 degree V-Dipole to the RTL-SDR and it picked up some planes fine. Later I will make a spider antenna and compare how well that performs.
+Initially I just connected my 120 degree V-Dipole to the RTL-SDR and it picked up some planes fine. Later I will make a spider antenna and compare how well that performs.
 
 ### Install Virtual Radar Server
 
