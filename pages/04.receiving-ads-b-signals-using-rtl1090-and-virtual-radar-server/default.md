@@ -1,6 +1,6 @@
 ---
 title: 'Receiving ADS-B Signals Using RTL1090 and Virtual Radar Server on Windows 10'
-media_order: 'SDR Waterfall.png,Map.PNG,Server.PNG,1090.PNG'
+media_order: 'spider antenna schematic.jpeg,SDR Waterfall.png,Map.PNG,Server.PNG,1090.PNG'
 ---
 
 **ADS-B **stands for Automatic Dependent Surveillance–Broadcast and is transmitted by planes equipped with ADS-B-Out. The signal is broadcast on 1090MHz and includes the aircraft's GPS and avionics systems:
@@ -54,6 +54,9 @@ Here's what the signal looks like on a waterfall spectrum.
 ### Create a Spider Antenna
 
 I followed the guidance [https://discussions.flightaware.com/t/three-easy-diy-antennas-for-beginners/16348/2](here) to create an antenna specifically tuned for 1090MHz.
+
+I used this schematic, and built an 8-legged antenna.
+![spider%20antenna%20schematic](spider%20antenna%20schematic.jpeg "spider%20antenna%20schematic")
 
 
 
