@@ -3,7 +3,7 @@ title: 'Receiving ADS-B Signals Using RTL1090 and Virtual Radar Server on Window
 media_order: 'spider antenna schematic.jpeg,My Spider Antenna.jpg,SDR Waterfall.png,Map.PNG,Server.PNG,1090.PNG'
 ---
 
-**ADS-B **stands for Automatic Dependent Surveillance–Broadcast and is transmitted by planes equipped with ADS-B-Out. The signal is broadcast on 1090MHz and includes the aircraft's GPS and avionics systems:
+**ADS-B** stands for Automatic Dependent Surveillance–Broadcast and is transmitted by planes equipped with ADS-B-Out. The signal is broadcast on 1090MHz and includes the aircraft's GPS and avionics systems:
 - Plane's position
 - Altitude
 - Heading
@@ -21,7 +21,6 @@ For some reason RTL1090 didn't pick up my RTL-SDR and I needed to install the dr
 The RTL1090 software requires some additional files. 
 - libusb-1.0.dll
 - rtlsdr.dll
-- msvcr100.dll
 
 Whilst the website says the can be downloaded from [http://web.archive.org/web/20130121051904/http://sdr.osmocom.org/trac/attachment/wiki/rtl-sdr/RelWithDebInfo.zip] these were out of date now. The versions that worked could be downloaded from the [https://github.com/rtlsdrblog/rtl-sdr-blog/releases](RTL-SDR Blog Driver GitHub releases page). The files above are available in the **x86** directory - just copy them into the directory with RTL1090.
 
@@ -30,7 +29,7 @@ Once installed, run the application and allow the firewall access pop up (this w
 Once running and some planes are close it will start to list them as below.
 ![1090](1090.PNG "1090")
 
-Initially I just connected my 120 degree V-Dipole to the RTL-SDR and it picked up some planes fine. Later I will make a spider antenna and compare how well that performs.
+>>>Initially I just connected my 120 degree V-Dipole to the RTL-SDR and it picked up some planes fine. Later I will make a spider antenna and compare how well that performs.
 
 ### Install Virtual Radar Server
 
