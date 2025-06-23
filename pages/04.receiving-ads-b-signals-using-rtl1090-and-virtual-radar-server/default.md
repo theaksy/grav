@@ -1,6 +1,6 @@
 ---
-title: 'Receiving ADS-B Signals Using RTL1090 and Virtual Radar Server'
-media_order: 1090.PNG
+title: 'Receiving ADS-B Signals Using RTL1090 and Virtual Radar Server on Windows 10'
+media_order: 'SDR Waterfall.png,Map.PNG,Server.PNG,1090.PNG'
 ---
 
 **ADS-B **stands for Automatic Dependent Surveillance–Broadcast and is transmitted by planes equipped with ADS-B-Out. The signal is broadcast on 1090MHz and includes the aircraft's GPS and avionics systems:
@@ -30,5 +30,32 @@ Once installed, run the application and allow the firewall access pop up (this w
 Once running and some planes are close it will start to list them as below.
 ![1090](1090.PNG "1090")
 
+### Install Virtual Radar Server
+
+Download the Windows installer from [https://www.virtualradarserver.co.uk/Download.aspx](https://www.virtualradarserver.co.uk/Download.aspx) and install. 
+
+Once installed, launch from the Start Menu and then click **Tools -> Options...** to add in the connection to RTL1090. Click on **Receiver** and then use the **Wizard** to configure a connection to the RTL device. If it doesn't find the device check the port listed by RTL1090 as mentioned above.
+
+After this launch [http://127.0.0.1/VirtualRadar](http://127.0.0.1/VirtualRadar) to see the mapping.
+
+I used [https://www.flightradar24.com/54.38,0.16/8](FlightRadar24) to see planes that were coming close, to test if I was receiving them.
+
+This is what the server looked like once it started to detect signals.
+![Server](Server.PNG "Server")
+
+And here is a plot of some of the planes on the Virtual Radar mapping
+![Map](Map.PNG "Map")
+
+### Viewing in SDR#
+Here's what the signal looks like on a waterfall spectrum.
+![SDR%20Waterfall](SDR%20Waterfall.png "SDR%20Waterfall")
 
 
+### Create a Spider Antenna
+
+I followed the guidance [https://discussions.flightaware.com/t/three-easy-diy-antennas-for-beginners/16348/2](here) to create an antenna specifically tuned for 1090MHz.
+
+
+
+### Follow on
+- Try feeding data into an online service
