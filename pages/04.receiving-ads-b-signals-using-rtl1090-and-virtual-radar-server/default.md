@@ -73,3 +73,5 @@ For the copper elements I used the earth from some 2.5mm twin and earth cable wh
 
 ### Follow on
 - Try feeding data into an online service
+- Explore the SISEX (Signals In Space Explorer)
+- Explore the HTTP functionality mentioned in v3 at the end of [https://www.tiiips.com/modules/?r=tiiips/home&action=listReviews&reviewID=37376&oID=37671](this blog)
