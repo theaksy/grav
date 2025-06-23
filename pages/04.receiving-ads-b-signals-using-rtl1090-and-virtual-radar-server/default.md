@@ -47,7 +47,7 @@ This is what the server looked like once it started to detect signals.
 And here is a plot of some of the planes on the Virtual Radar mapping
 ![Map](Map.PNG "Map")
 
-### Viewing in SDR#
+### Viewing in SDR
 Here's what the signal looks like on a waterfall spectrum.
 ![SDR%20Waterfall](SDR%20Waterfall.png "SDR%20Waterfall")
 
