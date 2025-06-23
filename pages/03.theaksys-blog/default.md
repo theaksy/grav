@@ -10,7 +10,6 @@ content:
         dir: desc
     pagination: true
     url_taxonomy_filters: true
-media_order: Map.PNG
 home_menu_item: ''
 ---
 
