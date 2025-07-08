@@ -1,6 +1,6 @@
 ---
 title: SDRPlay
-body_classes: 'title-center title-h1h2'
+body_classes: title-h1h2
 ---
 
 ## Trialling the SDRPlay RDPdx
