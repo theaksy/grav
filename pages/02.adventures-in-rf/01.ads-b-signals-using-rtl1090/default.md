@@ -41,7 +41,7 @@ Once installed, launch from the Start Menu and then click **Tools -> Options...*
 
 After this launch [http://127.0.0.1/VirtualRadar](http://127.0.0.1/VirtualRadar) to see the mapping.
 
-I used [https://www.flightradar24.com/54.38,0.16/8](FlightRadar24) to see planes that were coming close, to test if I was receiving them.
+I used [FlightRadar24](https://www.flightradar24.com/54.38,0.16/8) to see planes that were coming close, to test if I was receiving them.
 
 This is what the server looked like once it started to detect signals.
 ![Server](Server.PNG "Server")
