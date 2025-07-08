@@ -1,7 +1,12 @@
-# Trialling the SDRPlay RDPdx
+---
+title: Home
+body_classes: 'title-center title-h1h2'
+---
+
+## Trialling the SDRPlay RDPdx
 I managed to borrow an [SDRPlay SDRdx](https://www.sdrplay.com/rspdx/) which  has better [specs](https://www.sdrplay.com/resources/RSPdxDatasheet.pdf) to the RTL SDR v4 and HackRF One. In particular I was interested in the larger 14-bit ADC that may help me with the NOAA reception so close to an FM transmitter.
 
-# Software
+### Software
 After plugging in I couldnt see it in SatDump as a source, though the docs say it is supported. Therefore I downloaded [SDR Connect](https://www.sdrplay.com/sdrconnect/) 
 
 During the installation it mentioned installing soem drivers for the SRDPlay so this looked promising. Within Device Manager the SDRplay RSPdx was showing under Software Defined Radio. Folowing a restart of SatDump I still couldn't see it as a source, however I opened SDRconnect and it could successfully connect to the receiver.
