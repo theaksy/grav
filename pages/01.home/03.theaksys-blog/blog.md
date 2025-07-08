@@ -12,4 +12,4 @@ During the installation it mentioned installing soem drivers for the SRDPlay so 
 
 It seems SatDump uses the sdrplay_api.dll to interface, this file is in my Satdump directory. I installed the [SDRPlay API](https://www.sdrplay.com/api/) and could se the SDRplayAPIService running in TaskManager/Services.
 
-Following a restart of SatDump the receiver was available and streaming ok. THe likelihood is I just needed the API installing.
+Following a restart of SatDump the receiver was available and streaming ok. The likelihood is I just needed the API installing.
