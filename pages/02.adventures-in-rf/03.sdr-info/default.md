@@ -4,6 +4,12 @@ title: 'SDR Info'
 
 ## Useful Info for SDRs and Applications
 
+#### Bouncing noise floor and random spikes
+That's something that happens quite often on SDRs without band select pre-filters. Something out of band is overloading the front end, and because most SDRs do all their filtering in DSP or in software, it's not possible to exclude that signal from the input's analog to digital converter (ADC). The ADC can't unsee that energy, even when the DSP is trying to filter it out, so you get what are called "images" on almost every band you look at. They're not real signals, but internal noise inside the SDR that it doesn't know how to handle. You might try scouting to the left and right on different bands to see if there's some powerful signal, most likely on the FM or AM broadcast bands, that could be generating out of band images. There are filters you can buy for cheap that will notch out that portion of the band for you, which will allow your SDR to hear better on all the other frequencies.
+
+Of course, it's also entirely possible you have real noise from a device nearby at that frequency, such as a harmonic of a switched mode power supply or a noisy clock source in some rando electronic gadget.
+
+
 #### IF Gain
 📡 **IF gain**, or **Intermediate Frequency gain**, is a stage of amplification applied after the initial RF (Radio Frequency) signal has been down-converted but before it's digitised or demodulated. It’s a key part of the signal chain in many SDRs (Software Defined Radios), including those used in SatDump.
 
